@@ -1,0 +1,60 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+}
+
+.jumbotron{
+    color: #C0C0C0;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+}
+
+.card {
+    margin: 32px 72px;
+    display: grid;
+    padding: 32px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  @media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }

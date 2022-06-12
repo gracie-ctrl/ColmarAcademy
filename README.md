@@ -1,1 +1,2 @@
-# project_colmar
+# Class project
+# Colmar Academy
